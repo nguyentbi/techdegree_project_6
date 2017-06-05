@@ -1,0 +1,209 @@
+
+/*                    general                     */
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  background: url('svgs/background.svg') #edeff0;
+}
+
+#container {
+  max-width: 960px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #39add1;
+  font-weight: 700;
+  }
+  a:hover {
+    color: #111;
+  }
+
+
+/*                    header                     */
+
+
+
+header {
+  padding-top: 10px;
+}
+  header nav {
+    padding-bottom: 50px;
+    text-align: left;
+  }
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  header nav ul li a .icon {
+    height: 13px;
+    fill: #ba8058;
+  }
+
+  header nav ul li a:hover .icon,
+  header nav ul li a:hover span {
+    color: #eeaf61;
+    fill: #39add1;
+    transition: color .5s ease-in-out .1s, fill .5s ease-in-out .2s;
+  }
+
+  .logo {
+    display: block;
+    width: 140px;
+    height: 120px;
+    margin: 0 auto;
+  }
+
+  .logo .st0 {
+    fill: #ba8058;
+  }
+
+  .logo .st1 {
+    opacity: 0;
+  }
+
+  .logo .st2 {
+    fill: #f7dcb9;
+  }
+
+  header h1 {
+    line-height: 1em;
+  }
+
+
+/*                    main-section                     */
+
+main {
+  padding-top: 50px;
+}
+  main h2 {
+  font-size: 28px;
+}
+  main ul {
+    padding: 0;
+  }
+    main li {
+      display: inline-block;
+      color: #ba8058;
+      margin-right: 20px;
+    }
+      main li .dog {
+        margin-bottom: 15px;
+        width: 170px;
+        height: 170px;
+      }
+      main li span {
+        margin-left: -40px;
+      }
+      main li:last-child {
+        margin-right: 0;
+      }
+
+/*                    red-dog                     */
+
+.red .st0 {
+  fill:	#922f25;
+}
+.red .st1 {
+  fill: white;
+}
+.red .st2 {
+  fill: black;
+}
+.red .st3 {
+  fill: #de6c59;
+}
+.red ~ span {
+  color: #922f25;
+}
+
+/*                    fawn-dog                     */
+
+.fawn .st0 {
+  fill:	#b88a6c;
+}
+.fawn .st1 {
+  fill: white;
+}
+.fawn .st2 {
+  fill: black;
+}
+.fawn .st3 {
+  fill: #dfc7b4;
+}
+.fawn ~ span {
+  color: #b88a6c;
+}
+
+/*                    sable-dog                     */
+
+.sable .st0 {
+  fill:	#604931;
+}
+.sable .st1 {
+  fill: white;
+}
+.sable .st2 {
+  fill: black;
+}
+.sable .st3 {
+  fill: #946d3e;
+}
+.sable ~ span {
+  color: #604931;
+}
+
+  /*                    blacktan-dog                     */
+
+.blacktan .st0 {
+  fill:	#d5b680;
+}
+.blacktan .st1 {
+  fill: #3b3b3b;
+}
+.blacktan .st2 {
+  fill: white;
+}
+.blacktan .st3 {
+  fill: black;
+}
+.blacktan ~ span {
+  color: #3b3b3b;
+}
+
+/*                    footer                    */
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058;
+}
+
+@media (min-width: 425px) {
+
+  .logo .st1 {
+    opacity: 1;
+    fill: #eeaf61;
+  }
+
+  h1 {
+    display: none;
+  }
+
+}
